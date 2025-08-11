@@ -36,10 +36,6 @@ body {
     margin-bottom: 15px;
 }
 
-.subtitle:hover {
-    background-color: #9c2c1d;
-}
-
 .text-header {
     text-align: center;
     color: #ffffff;
