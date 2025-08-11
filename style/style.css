@@ -29,11 +29,15 @@ body {
     padding: 10px;
     border-radius: 15px;
     align-items: center;
-    background-color: #9c2c1d;
+    background-color: #000000;
     margin-top: 30px;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 15px;
+}
+
+.subtitle:hover {
+    background-color: #9c2c1d;
 }
 
 .text-header {
@@ -42,16 +46,6 @@ body {
     font-size: 20px;
     margin-top: 10px;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.85);
-}
-
-
-.title-header {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 30px;
-    text-shadow: 3px 3px 2px rgba(139, 111, 240, 0.85);
-    ;
-
 }
 
 .part-1 {
@@ -141,7 +135,9 @@ body {
 .button:active {
     transform: scale(1.1);
 }
-
+.button:hover {
+    transform: scale(1.1);
+}
 .footer {
     background-color: black;
     color: #ffffff;
